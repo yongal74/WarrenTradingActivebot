@@ -1,0 +1,27 @@
+# 환경 변수 (절대 커밋 금지)
+.env
+
+# 로그 및 상태 파일
+logs/
+reports/
+data/cache/
+backtest_results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# ngrok
+ngrok.exe
+ngrok
